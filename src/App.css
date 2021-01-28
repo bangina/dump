@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  border: 5px solid red;
+  width: 80vw;
+  margin: auto;
 }
 
 .App-logo {
@@ -21,19 +24,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
+body {
+  background-color: black;
+  color: white;
 }
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+section {
+  border: 1px solid blue;
 }

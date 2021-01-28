@@ -1,8 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import studentsReducer from "../features/students/studentsSlice";
+import tutorsReducer from "../features/students/tutorsSlice";
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    students: studentsReducer,
+    tutors: tutorsReducer,
   },
 });
